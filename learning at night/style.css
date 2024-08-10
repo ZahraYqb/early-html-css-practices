@@ -1,0 +1,39 @@
+body{
+    background-color: #E7E8D1;
+    height: 2000px;
+}
+div{
+    height: 100px;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+}
+.relative {
+    background-color: #B85042;
+
+    position: relative;
+    right: 10%;
+}
+#fixed {
+   background-color: #A7BEAE;
+
+    position: fixed;
+    right: 2px;
+    top: 20px;
+}
+.absolute {
+    background-color: #7c5dba;
+ 
+     position: absolute;
+     right:0px;
+     top:0;
+ }
+ #sticky{
+    background-color: rgb(181, 135, 135);
+    width: 100px;
+    height: 100px;
+
+    position: sticky;
+    top: 0%;
+    right: 0%;
+   
+ }
