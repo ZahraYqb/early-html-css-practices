@@ -1,39 +1,60 @@
-body{
-    background-color: #E7E8D1;
-    height: 2000px;
+body {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'verdana', Courier, monospace;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    /* width: 100%; */
 }
-div{
-    height: 100px;
-    border-radius: 10px; 
-    margin-bottom: 20px;
-}
-.relative {
-    background-color: #B85042;
-
-    position: relative;
-    right: 10%;
-}
-#fixed {
-   background-color: #A7BEAE;
-
-    position: fixed;
-    right: 2px;
-    top: 20px;
-}
-.absolute {
-    background-color: #7c5dba;
- 
-     position: absolute;
-     right:0px;
-     top:0;
- }
- #sticky{
-    background-color: rgb(181, 135, 135);
-    width: 100px;
-    height: 100px;
-
+h1{
+    width: 100%;
+    background-image: url(  https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L3JtNjQ2LWJhY2tncm91bmQtYm0tMDUtZy5qcGc.jpg);
+    color: aliceblue;
     position: sticky;
-    top: 0%;
+    top: 0;
     right: 0%;
-   
- }
+    left: 0%;
+
+}
+p, table {
+    color: #000000; 
+}
+blockquote {
+    color: rgb(99, 34, 60);
+    
+    
+}
+table, th, td {
+    border: 1px solid rgb(84, 35, 84);
+    border-collapse: collapse;
+}
+td {
+  padding: 15px;
+}  
+th{
+  text-align: left;
+}
+div {
+    margin:8px ;
+}
+#chronotype{
+  border-style: dashed;
+  padding: 5px;
+  width: 70%;
+  margin: auto;
+}
+.align_needed {
+  padding: 20px;
+  margin: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+summary {
+  margin: 50px;
+}
+form {
+  margin: 100px;
+}
