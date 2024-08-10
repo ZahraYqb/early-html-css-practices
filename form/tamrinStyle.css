@@ -1,0 +1,53 @@
+@font-face {
+    font-family: peachesForBreakfast;
+    src: url("../../../font/cool-ones/peaches-for-breakfast/PeachesForBreakfast-Regular.ttf") ,
+         format("truetype");
+    
+}
+body{
+    font-family: peachesForBreakfast;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    width: 70%;
+    margin: auto;
+    /* background-color: rgb(245, 245, 245); */
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    margin-top:1px 
+}
+#header:hover + p{
+    color: cadetblue;
+}
+table, th, td {
+    border: 1px solid rgb(84, 35, 84);
+    border-collapse: collapse;
+  }
+  td {
+    padding: 15px;
+  }  
+  th{
+    text-align: left;
+  }
+  form {
+  padding:20px;
+  
+}
+fieldset{
+  margin:10px;
+}
+
+
+#login_info:hover legend{
+    color: blue;
+}
+
+ul{
+  list-style-image: url(icon.svg);
+}
+details{
+  margin-bottom: 10px;
+  padding: 10px;
+}
